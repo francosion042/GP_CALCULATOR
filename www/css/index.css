@@ -1,0 +1,24 @@
+.margin-top {
+  margin-top: 30%;
+  position: relative;
+}
+.card {
+  background-color: darkgrey;
+}
+.down {
+  margin-top: 3%;
+  width: 100%;
+}
+.block {
+  width: 100%;
+}
+.block2 {
+  width: 50%;
+}
+.empty {
+  width: 35%;
+}
+
+a:hover{
+  text-decoration: none;
+}
