@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
@@ -14,6 +13,9 @@
       .loading,
       #calculatedGPA {
         display: none;
+      }
+      .centered {
+        margin: auto;
       }
     </style>
 
@@ -35,7 +37,7 @@
                   <span class="empty"></span>
                   <input
                     type="number"
-                    class="form-control block text-center"
+                    class="form-control w-100 block text-center"
                     id="numOfCourse"
                     placeholder="Registered Courses"
                     required
@@ -55,7 +57,7 @@
               <p class="text-center">
                 Enter the details of each of the Courses
               </p>
-              <form class="form-inline w-100 mx-auto" id="grades"></form>
+              <form class="form-inline  w-100 mx-auto block" id="grades"></form>
               <button id="computeGP" class="btn btn-dark text-center btn-block">
                 Calculate your GPA
               </button>

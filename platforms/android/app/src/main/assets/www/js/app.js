@@ -50,7 +50,7 @@ function enterResult(e) {
     // Create input element that will be attached to the input div
     inputField = document.createElement("input");
     // Add class and other input attribute to the input field
-    inputField.className = "form-control text-center";
+    inputField.className = "form-control text-center mb-1 w-100 centered";
     inputField.setAttribute("type", "text");
     inputField.setAttribute("placeholder", "Course Code");
     inputField.id = "course" + i;
@@ -61,10 +61,10 @@ function enterResult(e) {
     selectUnitDiv = document.createElement("div");
 
     // Add class to the div
-    selectUnitDiv.className = "form-group block2";
+    selectUnitDiv.className = "form-group col-6";
     // create the select element that will be atttached to this form group
     selectUnitField = document.createElement("select");
-    selectUnitField.className = "form-control mb-3";
+    selectUnitField.className = "form-control text-center  mb-5 w-100 centered";
     selectUnitField.id = "unit" + i;
     // pass the list of the options into the select using the innerHTML
     selectUnitField.innerHTML = '<option value="0">Unit Load</option>';
@@ -98,10 +98,10 @@ function enterResult(e) {
     // create div element
     selectGradeDiv = document.createElement("div");
     // Add class to the div
-    selectGradeDiv.className = "form-group block2";
+    selectGradeDiv.className = "form-group col-6";
     // create the select element that will be atttached to this form group
     selectGradeField = document.createElement("select");
-    selectGradeField.className = "form-control mb-3";
+    selectGradeField.className = "form-control text-center mb-5 w-100 centered";
     selectGradeField.id = "grade" + i;
     // pass the list of the options into the select using the innerHTML
     selectGradeField.innerHTML = '<option value="0">Grade</option>';
